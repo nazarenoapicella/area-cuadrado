@@ -1,18 +1,16 @@
 #include <stdio.h>
 
-int main () {
-  float lado1, lado2, area
-    printf("ingrese el alto en cm");
+int main() {
+    float lado1, lado2, area;
+    printf("Ingrese el alto en cm: "); 
     scanf("%f", &lado1);
-    printf("ingrese el ancho en cm");
+    printf("Ingrese el ancho en cm: "); 
     scanf("%f", &lado2);
 
-   area= lado1*lado2;
+    area = lado1 * lado2;
 
-    printf("su area en cm cuadrados es %e/n", area);
+    printf("El área en cm cuadrados es %g\n", area); 
 
- return 0;
-
-
-
+    return 0;
 }
+
